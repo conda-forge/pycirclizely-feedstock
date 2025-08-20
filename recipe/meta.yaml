@@ -1,5 +1,5 @@
 {% set name = "pyCirclizely" %}
-{% set version = "1.0.1" %}
+{% set version = "1.0.3" %}
 {% set python_min = "3.10" %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pycirclizely-{{ version }}.tar.gz
-  sha256: 88d548e2ea3d74d88fc3720b4d712bb5a778729e47cd8b38ce09979fad5e59b0
+  sha256: ce52daa0ce78de89be8bb1f8d9cda133b92dea4d5c15bfb85b25fda726b4abe5
 
 build:
   noarch: python
